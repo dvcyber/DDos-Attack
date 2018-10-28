@@ -855,8 +855,8 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
- 			print '[+] ~> Bali BlackHat wuzz here !!!!! <~ [+]'
-			print '[-] ~>   Localhost229 ft N63N63x      <~ [-]'
+			print '[+] ~> Packet kekirim cuk <~ [+]'
+			print '[-] ~>   Localhost229 ft N63N63x  | Bali BlackHat  <~ [-]'
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason

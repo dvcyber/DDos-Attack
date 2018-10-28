@@ -823,7 +823,7 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
-	print 'please try with python2 ikeh.py www.sitetarget.com'
+	print 'please try with python2 ikeh.py http://www.sitetarget.com'
 	print "\a"
 print"""
  _______  _____   _____         _______       ______  ______   _____  _______
@@ -855,8 +855,8 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
- 			print '[+] ~> Bali Black Hat wuzz here !!!!! <~ [+]'
-			print '[-] ~>   Localhost229 ft N63N63X      <~ [-]'
+ 			print '[+] ~> Bali BlackHat wuzz here !!!!! <~ [+]'
+			print '[-] ~>   Localhost229 ft N63N63x      <~ [-]'
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason
